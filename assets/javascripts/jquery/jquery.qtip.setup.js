@@ -4,15 +4,21 @@ $.qtipMakeOptions = function(container, ajax) {
             text: container.children('div.tooltip_text')
         },
         position: {
-            my: 'top left',
-            target: 'mouse',
+            my: 'left center',
+            at: 'right center',
+            target: 'event',
             viewport: RB.$(window), // Keep it on-screen at all times if possible
             adjust: {
-                x: 10,  y: 10
+              screen: true
             }
         },
         hide: {
-           fixed: true // Helps to prevent the tooltip from hiding ocassionally when tracking!
+          fixed: true,
+          event: 'mouseleave'
+
+        },
+        style: {
+          classes: 'backlog-qtip'
         }
     };
     if (ajax) {

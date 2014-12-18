@@ -85,7 +85,7 @@ body.loading #refresh{
 #helpers{
   display:none;
 }
-/* 
+/*
   .editor is the classname for field editors of sprint,
   story, task, impediment. These field editors get created
   at runtime whenever any of the above models are edited.
@@ -121,3 +121,9 @@ ul.ui-sortable {
 /* redmine header in backlogs page */
 #usability-compat-wrapper {font-size:12px; }
 .w-rb-header-collapsed { height:18px; overflow:hidden; }
+
+
+.backlog-qtip .ui-tooltip-content{
+  max-height:350px;
+  overflow: auto;
+}
