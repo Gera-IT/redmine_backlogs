@@ -93,9 +93,9 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
 
 #backlogs_container .closedbacklog,
 #backlogs_container .backlog {
-  -moz-box-shadow: 3px 3px 4px #A0A0A0;
-  -webkit-box-shadow: 3px 3px 4px #A0A0A0;
-  box-shadow: 3px 3px 4px #A0A0A0;
+  //-moz-box-shadow: 3px 3px 4px #A0A0A0;
+  //-webkit-box-shadow: 3px 3px 4px #A0A0A0;
+  //box-shadow: 3px 3px 4px #A0A0A0;
   -moz-border-radius:5px 5px 0px 0px;
   -webkit-border-radius:5px 5px 0px 0px;
   border-radius:5px 5px 0px 0px;
@@ -104,9 +104,10 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   position:relative;
   /* IE only*/
   border: 1px solid #CCCCCC;
-  background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
-  background: -moz-linear-gradient(top, #EEE, #CCC);
-  filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
+  background-color: #eee;
+  //background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
+  //background: -moz-linear-gradient(top, #EEE, #CCC);
+  //filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
 }
 
 #backlogs_container .header{
@@ -114,10 +115,10 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   -moz-border-radius:5px 5px 0px 0px;
   -webkit-border-radius:5px 5px 0px 0px;
   border-radius:5px 5px 0px 0px;
-  background-color:#CCCCCC;
-  background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
-  background: -moz-linear-gradient(top, #EEE, #CCC);
-  filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
+  //background-color:#CCCCCC;
+  //background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
+  //background: -moz-linear-gradient(top, #EEE, #CCC);
+  //filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
   position:relative;
   white-space: nowrap;
   height:30px;
@@ -331,7 +332,7 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   font-size:11px;
   margin:0;
   width:100%;
-  border-bottom: #AAAAAA 1px solid;
+  //border-bottom: #AAAAAA 1px solid;
 }
 #backlogs_container .closedbacklog .stories .story{
   cursor:default;
@@ -639,7 +640,7 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   width:60px;
 }
 /* Naive but light handling of colors by user stories tracker */
-
+/*
 #backlogs_container .stories .tracker0{
   background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#FFF));
   background: -moz-linear-gradient(top, #EEE, #FFF);
@@ -688,6 +689,7 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#FED0D0);
   background-color:#FED0D0;
 }
+*/
 #backlogs_container .stories .story_field {
   overflow: hidden;
   padding-top: 4px;
