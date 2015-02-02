@@ -93,9 +93,6 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
 
 #backlogs_container .closedbacklog,
 #backlogs_container .backlog {
-  //-moz-box-shadow: 3px 3px 4px #A0A0A0;
-  //-webkit-box-shadow: 3px 3px 4px #A0A0A0;
-  //box-shadow: 3px 3px 4px #A0A0A0;
   -moz-border-radius:5px 5px 0px 0px;
   -webkit-border-radius:5px 5px 0px 0px;
   border-radius:5px 5px 0px 0px;
@@ -105,9 +102,6 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   /* IE only*/
   border: 1px solid #CCCCCC;
   background-color: #eee;
-  //background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
-  //background: -moz-linear-gradient(top, #EEE, #CCC);
-  //filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
 }
 
 #backlogs_container .header{
@@ -115,10 +109,6 @@ ul li { vertical-align: bottom; } /* close IE7 gap between list items */
   -moz-border-radius:5px 5px 0px 0px;
   -webkit-border-radius:5px 5px 0px 0px;
   border-radius:5px 5px 0px 0px;
-  //background-color:#CCCCCC;
-  //background: -webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
-  //background: -moz-linear-gradient(top, #EEE, #CCC);
-  //filter:progid:DXImageTransform.Microsoft.Gradient(Enabled=1,GradientType=0,StartColorStr=#EEEEEE,EndColorStr=#CCCCCC);
   position:relative;
   white-space: nowrap;
   height:30px;
