@@ -12,7 +12,9 @@
 
 /* fluid 2 colum layout */
 #backlogs_container{
-  padding: 8px;
+  /* padding: 8px; */
+  margin-left: -3px;
+  padding: 8px 0 0;
 }
 #backlogs_container .wrapper{
    position: relative;
