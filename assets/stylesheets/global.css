@@ -29,6 +29,7 @@ a:hover{
   position:relative;
   width:100%;
   z-index:1000;
+  line-height: 28px;
 }
 #toolbar .breadcrumbs{
   float: left;
@@ -56,6 +57,9 @@ a:hover{
 #toolbar .links a{
   cursor:pointer;
   padding-left:5px;
+}
+#toolbar.rb-toolbar .userselect span#userselect ul {
+  margin-left: -40px !important;
 }
 body.loading #refresh{
   background-image:url('images/bouncer.gif');
